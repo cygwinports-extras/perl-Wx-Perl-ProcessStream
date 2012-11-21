@@ -1,0 +1,12 @@
+CPAN_AUTHOR=mdootson
+inherit perl
+
+NAME="perl-Wx-Perl-ProcessStream"
+VERSION=0.32
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="External process I/O handling for wxPerl"
+DESCRIPTION="This module provides the STDOUT, STDERR and exit codes of
+asynchronously running processes via events. It may be used for long running
+or blocking processes that provide periodic updates on state via STDOUT.
+Simple IPC is possible via STDIN."
